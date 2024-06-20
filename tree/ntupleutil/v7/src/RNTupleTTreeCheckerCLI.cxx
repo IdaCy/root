@@ -31,7 +31,7 @@ namespace Experimental {
 namespace RNTupleTTreeCheckerCLI {
 
 CheckerConfig ParseArgs(const std::vector<std::string> &args) {
-	std::cout << "Total args: " << args.size() << std::endl;
+	//std::cout << "Total args: " << args.size() << std::endl;
 
     const auto argsProvided = args.size() >= 2;
     const auto helpUsed = argsProvided && (args[1] == "--help" || args[1] == "-h");
@@ -48,7 +48,7 @@ CheckerConfig ParseArgs(const std::vector<std::string> &args) {
 
     for (size_t i = 1; i < args.size(); ++i) {
         const auto &arg = args[i];
-		std::cout << "Processing arg: " << i << std::endl;
+		//std::cout << "Processing arg: " << i << std::endl;
 
         if (arg == "--ttree" || arg == "-t") {
             if (++i < args.size()) config.fTTreeFile = args[i];

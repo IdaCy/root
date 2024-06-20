@@ -32,16 +32,6 @@ int main(int argc, char **argv) {
 
 /*
 
-sftguest@pcphsft151:~/root/build/bin$ ./rntuplevsttree -ttree ../../src/tree/ntupleutil/v7/test/test_Ida_temp/simple_ttree.root -rntuple ../../src/tree/ntupleutil/v7/test/test_Ida_temp/simple_rntuple.root -tn ttree -rn rntuple
-Unknown argument '-ttree'
-Usage:
- rntuplettreechecker (--ttree|-t) <input_ttree_file>
-                     (--rntuple|-r) <input_rntuple_file>
-                     (--treename|-tn) <ttree_name>
-                     (--rntuplename|-rn) <rntuple_name>
- rntuplettreechecker [--help|-h]
+./rntuplevsttree --ttree ../../src/tree/ntupleutil/v7/test/test_Ida_temp/multiple_ttrees.root --rntuple ../../src/tree/ntupleutil/v7/test/test_Ida_temp/multiple_rntuples.root -tn tree_0 -rn rntuple_0
 
-
-sftguest@pcphsft151:~/root/build/bin$
-
- */
+*/
