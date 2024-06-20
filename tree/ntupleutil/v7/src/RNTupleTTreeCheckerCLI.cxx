@@ -22,6 +22,14 @@ namespace ROOT {
 namespace Experimental {
 namespace RNTupleTTreeCheckerCLI {
 
+// Define usageText as a static constant within the namespace
+static const char* usageText = "Usage:\n"
+                               " rntuplettreechecker (--ttree|-t) <input_ttree_file>\n"
+                               "                     (--rntuple|-r) <input_rntuple_file>\n"
+                               "                     (--treename|-tn) <ttree_name>\n"
+                               "                     (--rntuplename|-rn) <rntuple_name>\n"
+                               " rntuplettreechecker [--help|-h]\n\n";
+
 CheckerConfig ParseArgs(const std::vector<std::string>& args) {
     std::cout << "Total arguments received: " << args.size() << std::endl;
     for (const auto& arg : args) {
@@ -34,7 +42,7 @@ CheckerConfig ParseArgs(const std::vector<std::string>& args) {
     if (!argsProvided || helpUsed) {
         std::cout << usageText;
         if (!argsProvided)
-            std::cout << " Use --help or -h for usage help.";
+            std::cout << "Use --help or -h for usage help.";
         std::cout << std::endl;
         return {};
     }
@@ -78,4 +86,3 @@ CheckerConfig ParseArgs(const std::vector<std::string>& args) {
 } // namespace RNTupleTTreeCheckerCLI
 } // namespace Experimental
 } // namespace ROOT
-
