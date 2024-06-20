@@ -29,19 +29,3 @@ int main(int argc, char **argv) {
 
     return 0;
 }
-
-/*
-
-sftguest@pcphsft151:~/root/build/bin$ ./rntuplevsttree -ttree ../../src/tree/ntupleutil/v7/test/test_Ida_temp/simple_ttree.root -rntuple ../../src/tree/ntupleutil/v7/test/test_Ida_temp/simple_rntuple.root -tn ttree -rn rntuple
-Unknown argument '-ttree'
-Usage:
- rntuplettreechecker (--ttree|-t) <input_ttree_file>
-                     (--rntuple|-r) <input_rntuple_file>
-                     (--treename|-tn) <ttree_name>
-                     (--rntuplename|-rn) <rntuple_name>
- rntuplettreechecker [--help|-h]
-
-
-sftguest@pcphsft151:~/root/build/bin$
-
- */
