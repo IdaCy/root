@@ -13,7 +13,6 @@
  * For the list of contributors see $ROOTSYS/README/CREDITS.             *
  *************************************************************************/
 
-
 #ifndef ROOT_RNTupleTTreeChecker
 #define ROOT_RNTupleTTreeChecker
 

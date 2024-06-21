@@ -29,6 +29,3 @@ int main(int argc, char **argv) {
 
     return 0;
 }
-
-// run with:
-// ./rntuplevsttree --ttree ../../src/tree/ntupleutil/v7/test/test_Ida_temp/multiple_ttrees.root --rntuple ../../src/tree/ntupleutil/v7/test/test_Ida_temp/multiple_rntuples.root -tn tree_0 -rn rntuple_0

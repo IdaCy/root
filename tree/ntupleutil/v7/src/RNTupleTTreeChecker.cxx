@@ -13,7 +13,6 @@
  * For the list of contributors see $ROOTSYS/README/CREDITS.             *
  *************************************************************************/
 
-
 #include "ROOT/RNTupleTTreeChecker.hxx"
 #include "ROOT/RNTupleTTreeCheckerCLI.hxx"
 #include <ROOT/RNTuple.hxx>
